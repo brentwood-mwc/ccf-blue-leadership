@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns11111100111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x0073CF">
+  <layouts>
+    <layout name="npnxnanbsnfns11111100111" font="Open Sans" controllayout="npnxnanbsnfns11111100111" colorscheme="npnxnanbnsnfns11111100111" string_table="npnxnanbnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100111" font="Open Sans" controllayout="pxabnsnfns11111100111" colorscheme="npnxnanbnsnfns11111100111" string_table="npnxnanbnsnfns11111100111" />
+    <layout name="npxnabnsnfns11111100111" font="Open Sans" controllayout="npxnabnsnfns11111100111" colorscheme="npnxnanbnsnfns11111100111" string_table="npnxnanbnsnfns11111100111" />
+    <layout name="npnxnanbnsnfns11111100111" font="Open Sans" controllayout="npnxnanbnsnfns11111100111" colorscheme="npnxnanbnsnfns11111100111" string_table="npnxnanbnsnfns11111100111" />
+    <layout name="pxabnsnfns11111100110" font="Open Sans" controllayout="pxabnsnfns11111100110" colorscheme="npnxnanbnsnfns11111100111" string_table="npnxnanbnsnfns11111100111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Blue Badge Foundation Leadership: SMEAC Briefings" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" />
+              <option name="html5_logo_url" value="mobile/6XeyNs2PoUm.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111100110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns11111100111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0073CF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0073CF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns11111100111">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="closed_captions_tip">Closed Captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / Unmute</string>
+      <string id="next_shortcut">Next Slide</string>
+      <string id="playpause_shortcut">Play / Pause</string>
+      <string id="previous_shortcut">Previous Slide</string>
+      <string id="replay_shortcut">Replay Slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit Slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next Slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous Slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay Slide</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.63pW7qje0gI" displaytext="Title Slides" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63pW7qje0gI.6hk30JjAH3Q" displaytext="Welcome Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.63pW7qje0gI.5cIbQMUiX6r" displaytext="Course Information" expand="false" type="slide" />
+            <slidelink slideid="_player.63pW7qje0gI.5qY5I8AvRsh" displaytext="Course Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.63pW7qje0gI.5jLRt8e8TIX" displaytext="Course Content" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5srnaXRdkRo" displaytext="Qualities of a Good Leader" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5srnaXRdkRo.6nCZKRXamvq" displaytext="What Makes a Good Leader 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5srnaXRdkRo.5dokqWOXBxE" displaytext="What Makes a Good Leader 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5srnaXRdkRo.6iW9M6RNiZl" displaytext="Leadership Qualities Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5srnaXRdkRo.5gwwpWgFNbV" displaytext="Why We Need Good Leadeers" expand="false" type="slide" />
+            <slidelink slideid="_player.5srnaXRdkRo.5YWEeoMxdg8" displaytext="Find Out More" expand="false" type="slide" />
+            <slidelink slideid="_player.5srnaXRdkRo.6rE3ztDrc4u" displaytext="Leadership Qualities Module Complete" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5vMsd4BA8ge" displaytext="The SMEAC Brief" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5vMsd4BA8ge.6b6U1q4P9JT" displaytext="Why do we Need to Use SMEAC?" expand="false" type="slide" />
+            <slidelink slideid="_player.5vMsd4BA8ge.6S5ieeE6e00" displaytext="The SMEAC Brief Sub-Menu" expand="false" type="slide" />
+            <slidelink slideid="_player.5vMsd4BA8ge.5jnwn77LX8A" displaytext="Situation" expand="false" type="slide" />
+            <slidelink slideid="_player.5vMsd4BA8ge.6qrSCMT1ewz" displaytext="Mission" expand="false" type="slide" />
+            <slidelink slideid="_player.5vMsd4BA8ge.6oOFyA9uN2p" displaytext="Execution" expand="false" type="slide" />
+            <slidelink slideid="_player.5vMsd4BA8ge.5vgfJ4kwMew" displaytext="Any Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.5vMsd4BA8ge.66cyMCuNKCv" displaytext="Check Understanding" expand="false" type="slide" />
+            <slidelink slideid="_player.5vMsd4BA8ge.6erFjniWQql" displaytext="SMEAC Brief Module Complete" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6m0lgtBEyVw" displaytext="Leading Your Team" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6m0lgtBEyVw.6jjrUi577n7" displaytext="The Blue Badge Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.6m0lgtBEyVw.6jqp6N89jfh" displaytext="Tips for Success" expand="false" type="slide" />
+            <slidelink slideid="_player.6m0lgtBEyVw.5wwNQU4FnCw" displaytext="Extra Resources" expand="false" type="slide" />
+            <slidelink slideid="_player.6m0lgtBEyVw.5gsc82Tchup" displaytext="Leading Your Team Module Complete" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6XI7fEIgPSp" displaytext="Knowledge Test" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6XI7fEIgPSp.6jsQIDW6HRj" displaytext="Quiz Information" expand="false" type="slide" />
+            <slidedrawref drawid="_player.6XI7fEIgPSp.5ipxZ0dH9kH" />
+            <slidelink slideid="_player.6XI7fEIgPSp.6XIPhXaYi5L" displaytext="Quiz Complete" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="63pW7qje0gI.6hk30JjAH3Q" slidebank="false" type="slide"> foundation leadership blue badge leadership smeac  briefings    start course start course start course start course start course start course   turn on your sound for the best experience </slidetext>
+      <slidetext slideid="63pW7qje0gI.5cIbQMUiX6r" slidebank="false" type="slide">  course navigation click here to close this page click to close  click or hover over the question marks to find out more about the in-course player: menu the menu shows which sections of the course you still need to complete.  when you have completed a page it becomes ‘greyed out’.  when you complete a section, it collapses into its heading.  menu button click this button to show or hide the menu, which is hidden by default.  glossary and resources click on the glossary tab to remind yourself of the courses key words and their meanings. the resources tab contains extra downloadable resources or links to external websites.  volume &amp; play/pause button click and drag on the volume icon to turn the sound volume up or down. if the sound is still to quiet on full volume you will need to turn up your speakers manually on your computer or tablet. press the play/pause button to pause a page.  replay page some pages can be replayed once they have finished running. press this button to view a page again.  in-course buttons some pages in this course have buttons like this on them. the wording on the button itself will tell you what they do.  progress slider this section of the page shows how much of the page has played.  you will not be able to move to the next page until the current one has finished loading.  prev/next buttons these buttons are used for navigation. use the next button to go to the next page and the prev button to go back. you will not be able to use the next button until the page has finished loading. some pages will not let you move on until you have completed all the actions on that page.   this course should take around 40-50 minutes to complete. it may take longer if you want to view the optional content. this training does not need to be completed in one session; you can complete parts of the course and revisit it later. use the previous and next buttons on the course player to navigate.  some pages have buttons which you will need to press before moving on. after answering a quiz question press the submit button to confirm your selection. aspects of this training require access to video hosting websites like youtube. avoid completing this course on devices that restrict access to these sites. all links open in a new window. about the in-course player and what else you can access. click here to find out more  course information blue leadership smeac briefings  </slidetext>
+      <slidetext slideid="63pW7qje0gI.5qY5I8AvRsh" slidebank="false" type="slide">course overview the foundation leadership syllabus  identify the qualities of a good leader. explain why the air cadets need good leaders. recall each part of the acronym smeac. explain what each part of smeac is used for. apply your knowledge and deliver a smeac brief in front of your team members. after this training you will be able to:</slidetext>
+      <slidetext slideid="63pW7qje0gI.5jLRt8e8TIX" slidebank="false" type="slide">   course content click below to access a module 1 qualities of a good leader 1 qualities of a good leader 1 qualities of a good leader 1 qualities of a good leader 2 the smeac brief 2 the smeac brief 2 the smeac brief 2 the smeac brief 3 leading your team 3 leading your team 3 leading your team 3 leading your team 4 test your knowledge 4 test your knowledge 4 test your knowledge 4 test your knowledge  exit course exit course exit course exit course exit course exit course</slidetext>
+      <slidetext slideid="5srnaXRdkRo.6nCZKRXamvq" slidebank="false" type="slide">  think about a good leader that you know or have been inspired by. this could be someone you know, like a teacher or a relative. it could be someone famous that you admire, or a person from history. leadership qualities what makes a good leader? who did you pick? hint leadership qualities a good leader will have some important qualities that separate them from a bad one. does your chosen person display any of these traits?honesty       integrity       confidence       commitmentpassion       creativity       good communicator       patience  submit submit submit submit submit submit type your text here submit submit submit submit submit submit what makes them a good leader?think about how this person acts and the things they do: how do they get things done?        why do people listen to them?       what is their personality like?  choose four qualities that you think make your chosen person a good leader.think about their different personality traits. don’t worry about wrong answers at this stage.  type your text here type your text here type your text here type your text here</slidetext>
+      <slidetext slideid="5srnaXRdkRo.5dokqWOXBxE" slidebank="false" type="slide">  thank you for considering the qualities of a good leader. did you include any of the following personality traits in your answer?  leadership qualities what makes a good leader?</slidetext>
+      <slidetext slideid="5srnaXRdkRo.6iW9M6RNiZl" slidebank="false" type="slide">  try again try again try again try again try again try again not quite! think about why each personality trait would make someone a good or bad leader.ask someone for help if you are still not sure. not quite! think about why each personality trait would make someone a good or bad leader.ask someone for help if you are still not sure. continue continue continue continue continue continue well done! you have matched the qualities to the right boxes correctly.  next next next next next next       leadership qualities test your knowledge decide which personality traits good leaders might possess and which traits bad leaders might possess.  drag the answers into the correct box. good leadership qualities bad leadership qualities patient selfish a gossip inflexible stubborn honest inspiring confident committed submit submit submit submit submit submit </slidetext>
+      <slidetext slideid="5srnaXRdkRo.5gwwpWgFNbV" slidebank="false" type="slide">to increase team morale a happy team is a successful one. it is important that leaders congratulate their team when things are going well and give the team encouragement when they are not going so well. to direct a group leaders in the air cadets help steer the direction they want their team members to go by showing them how to complete a task and delegating task roles when needed. to perform tasks a good team gets things done and a good leader gives team members tasks, checking that they are being completed successfully. they make decisions and think ahead.   administration good administration means that messages and information are passed on effectively to those who need it. this helps teams to perform tasks more effectively. leadership qualities why do we need good leaders? turn the dial to find out why the the royal air force air cadets need good leaders.      1 4 3 2 i</slidetext>
+      <slidetext slideid="5srnaXRdkRo.5YWEeoMxdg8" slidebank="false" type="slide"> click to close   leadership qualities find out more interested in finding out more about good leadership? check out the resources below. these resources require access to the internet and will open in a new browser window.     what is leadership?  9 secrets of leadership  armed forces leadership   101 leadership skillshttp://briandownard.com/leadership-skills-list leadership qualities for teenshttps://www.supercamp.com/leadership-qualities-for-teens/</slidetext>
+      <slidetext slideid="5srnaXRdkRo.6rE3ztDrc4u" slidebank="false" type="slide">  leadership qualities module complete you have completed this section. press main menu to continue.    main menu main menu main menu main menu main menu main menu </slidetext>
+      <slidetext slideid="5vMsd4BA8ge.6b6U1q4P9JT" slidebank="false" type="slide">the smeac brief why do we need to use smeac? if you are in charge of a task your team need to know what is happening. the best way to do this is to give them a briefing. a clear briefing will include all of the important information needed to complete the task. a good leader will also check that their team members have understood by asking and answering questions. in the military the acronym smeac is often used as a tool to help deliver effective briefings. </slidetext>
+      <slidetext slideid="5vMsd4BA8ge.6S5ieeE6e00" slidebank="false" type="slide">you must click and on view each part of the smeac sequence before you can continue.    the smeac brief what does smeac mean? s s s s  m m m m e e e e a a a a c c c c each letter in smeac outlines a different part of the briefing sequence.   find out what is needed for each section of a smeac brief by clicking on a letter.</slidetext>
+      <slidetext slideid="5vMsd4BA8ge.5jnwn77LX8A" slidebank="false" type="slide"> click to close     smeac - situation the bigger picture   s m e a c smeac menu smeac menu smeac menu smeac menu smeac menu smeac menu click to view the video an example of how to deliver the situation section of a smeac brief.  example brief example brief example brief example brief example brief example brief this section provides your team with an overview of what’s going on. it details where you are, why you are there and what has happened/ about to happen. it is the bigger picture and gives context for the rest of the brief. it must be kept short and relevant.</slidetext>
+      <slidetext slideid="5vMsd4BA8ge.5vgfJ4kwMew" slidebank="false" type="slide">   smeac - any questions clarifying points   s m e a c smeac menu smeac menu smeac menu smeac menu smeac menu smeac menu click to view the video an example of how to deliver the any questions section of a smeac brief.  this is where you ask your team if they have any questions. answer a question by reading the relevant part of the brief again. be confident when you do this! asking each team member individually if they  have a question will help ensure that all team members get a chance to ask a question if they need to.</slidetext>
+      <slidetext slideid="5vMsd4BA8ge.6oOFyA9uN2p" slidebank="false" type="slide"> click to close     smeac - execution how to complete the task   s m e a c smeac menu smeac menu smeac menu smeac menu smeac menu smeac menu click to view the video an example of how to deliver the execution section of a smeac brief.  example brief example brief example brief example brief example brief example brief this is the most important part; telling your team the plan. ask your team for ideas if you don’t have any yourself and ensure that your team understands what they have to do to deliver the plan. in this section you should also tell your team about any limitations (rules) that must be followed when completing the task. all team members must understand what these limitations are.</slidetext>
+      <slidetext slideid="5vMsd4BA8ge.6qrSCMT1ewz" slidebank="false" type="slide"> click to close     smeac - mission an outline of the task   s m e a c smeac menu smeac menu smeac menu smeac menu smeac menu smeac menu click to view the video an example of how to deliver the mission section of a smeac brief.  example brief example brief example brief example brief example brief example brief this section provides an overview of what you need to do to complete your task. it must be short and snappy. the mission is to… in order to… this part of the brief is repeated twice to ensure your team have taken it in.</slidetext>
+      <slidetext slideid="5vMsd4BA8ge.66cyMCuNKCv" slidebank="false" type="slide">   smeac - check understanding check the team are ready to go   s m e a c smeac menu smeac menu smeac menu smeac menu smeac menu smeac menu ask your team questions to check that they have understood the briefing. ask each team member a different question and make sure they can answer it. if they can’t, re-read that section of the brief and consider asking the question again. finish with a positive message. click to view the video an example of how to deliver the check understanding section of a smeac brief. </slidetext>
+      <slidetext slideid="5vMsd4BA8ge.6erFjniWQql" slidebank="false" type="slide">   the smeac brief module complete you have completed this section. press main menu to continue.  main menu main menu main menu main menu main menu main menu  </slidetext>
+      <slidetext slideid="6m0lgtBEyVw.6jjrUi577n7" slidebank="false" type="slide">leading your team the blue badge leadership assessment to gain your blue badge you will be assessed leading a small team. you will be assessed on how you perform as a leader in ten different areas. in each area you can score between one and five points. if you score one point on anything you will need to try again and be re-assessed. you must score at least 30 out of 50. the next page gives more information about each of the ten assessed areas. </slidetext>
+      <slidetext slideid="6m0lgtBEyVw.6jqp6N89jfh" slidebank="false" type="slide"> click to close   10. did you give praise and encouragement throughout? click to close  do's        (tips for a higher score) give your team praise regularly when things are going well. encourage them when things are not going so well. keep your praise and encouragement brief but frequent. don’ts        (things to avoid) don’t forget to do this. it’s easy to forget to praise your team when you are concentrating on the task. this is an area that new leaders frequently forget to monitor. avoid being negative. this brings everyone in the team down.  9. if an assessor had just entered the room, would they be able to tell who was in charge? click to close  do's        (tips for a higher score) ensure you stay separate from your team members when you brief them. regularly check that your team know what they are doing and ask if they are doing ok. consider taking a step back during the task so you get an overview of what is going on. don’ts        (things to avoid) don’t allow other team members to take over or do the talking for you. don’t give up if things go wrong. be confident, take a step back and re-evaluate.  8. were you confident? click to close  do's        (tips for a higher score) stand up tall and make sure all of your team can hear you. state your smeac brief and plan with confidence. keep confident throughout the task. don’ts        (things to avoid) don’t slouch, look grumpy or disinterested. don’t be overly loud or quiet. don’t let other team members try to take over. if they do, politely remind them to stop.  7. were the limitations monitored? click to close  do's        (tips for a higher score) make sure your team are following the task limitations throughout the task. ensure that your team member in charge of standards is positioned correctly so they can see what is going on.  don’ts        (things to avoid) don’t forget about monitoring the limitations. this is easy to do when you are concentrating on the task. don’t ignore the limitations on purpose when you think no-one is looking. this is dishonest and could mean you fail the task.  6. did the rest of the team know what was meant to be happening? click to close  do's        (tips for a higher score) regularly check up on your team members. are they happy? do they know what they are doing? take a step back and watch. are the team performing as they should? don’ts        (things to avoid) don’t assume your team members know what they are doing just because you told them. check they actually understand their task. don’t be afraid to stop the task and re-brief the team if it’s not going well.  5. did you re-evaluate when something went wrong? click to close  do's        (tips for a higher score) keep calm when something goes wrong.  be flexible and adapt – if you are doing the same thing over and over and it doesn’t work you are just wasting time. don’ts        (things to avoid) don’t be afraid to stop, take a step back and re-evaluate the plan. don’t keep a new idea to yourself. tell your team about any changes to the plan.  4. was there an initial plan? click to close  do's        (tips for a higher score) think of a rough plan before you brief your team. use the back of your smeac briefing notes sheet to jot down ideas quickly if needed. try to think about what could go wrong during the task and try and formulate your plan to take this into account. don’ts        (things to avoid) don’t be afraid to ask your team for ideas if you are not sure, but don’t be over reliant on your team members to think of an idea for you. you are in charge and the overall plan must be yours.  don’t let other team members take over.  3. did you mention and monitor the time limitation? do's        (tips for a higher score) one of your team should be in charge of timings to ensure that you are following any time limitations. regularly ask for time updates to make sure you are on track. don’ts        (things to avoid) don’t forget to check you have enough time left. this is an area that new leaders frequently forget to monitor. don’t rush. this can lead to mistakes and actually slow you down. click to close   2. did you mention all the limitations? click to close  do's        (tips for a higher score) write down and understand the limitations (rules of the task) before you start. one of your team should be in charge of standards to ensure that everyone is following the task limitations. use smeac to check your teams understanding. don’ts        (things to avoid) don’t forget to mention all the limitations. if your team don’t have this information then they cannot succeed. don’t assume that your team understand what the limitations are. encourage them to ask questions during the smeac brief and throughout the task to check their understanding.  1. did you brief using smeac? do's        (tips for a higher score) use the smeac briefing notes sheet. this can be found in the resources section. listen to your instructor carefully when they are passing on the brief to you; write down as much as you can and ask questions to clarify key points. brief your team in the correct order. don’ts        (things to avoid) don’t forget to assign the 2ic, timekeeper and standards roles. this will help you later. don’t brief out of order; this will confuse your team and you will miss key points. don’t try to remember everything without writing it down. in the heat of the moment you will probably forget something. click to close     you are assessed across ten areas. click on the boxes below to find out some do’s and don’ts.  leading your team tips for success  did you brief using smeac? did you mention all the limitations? did you mention and monitor the time limitation? was there an initial plan? did you re-evaluate when something went wrong? did the rest of the team know what was meant to be happening? were limitations monitored? were you confident? if an assessor had just entered the room, would they be able to tell who was in charge? did you give praise and encouragement throughout? example assessment sheet click here to view the assessment sheet your instructor will use during your leadership task. </slidetext>
+      <slidetext slideid="6m0lgtBEyVw.5wwNQU4FnCw" slidebank="false" type="slide">  leading your team extra resources click the resources section in the top right corner of this screen to access more content. files include a briefing technique fact-sheet, a briefing notes sheet and an example smeac brief. all files are printable.     </slidetext>
+      <slidetext slideid="6m0lgtBEyVw.5gsc82Tchup" slidebank="false" type="slide">   leading your team module complete you have completed this section. press main menu to continue.  main menu main menu main menu main menu main menu main menu  </slidetext>
+      <slidetext slideid="6XI7fEIgPSp.6jsQIDW6HRj" slidebank="false" type="slide"> quiz information  test your knowledge   you have already answered one question in the ‘qualities of a good leader’ section of this course. you will be presented with three more quiz questions which will appear in a random order.  read each question carefully and pay particular attention to the instructions given. if you make a mistake you will get one more chance per question to answer again. you must get three out of four questions correct (75%) to pass this section. if you score less than this you will have to take the course again from the beginning. good luck!</slidetext>
+      <slidetext slideid="6XI7fEIgPSp.6XIPhXaYi5L" slidebank="false" type="slide">    course completed well done! you have completed this course. press main menu to revisit content or exit course to leave.  exit course exit course exit course exit course exit course exit course  main menu main menu main menu main menu main menu main menu </slidetext>
+      <slidetext slideid="6BqTXDpv1V3" slidebank="true" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  situation mission execution any questions check understanding   put the sections of the briefing sequence into the correct order. question 1 submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6YAfMSVun7R" slidebank="true" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue    why do the air cadets need good leaders? choose all the answers that you think are correct. question 2 submit submit submit submit submit submit for good administration for good administration for good administration for good administration for good administration for good administration to direct groups to direct groups to direct groups to direct groups to direct groups to direct groups to perform tasks effectively to perform tasks effectively to perform tasks effectively to perform tasks effectively to perform tasks effectively to perform tasks effectively to increase team morale to increase team morale to increase team morale to increase team morale to increase team morale to increase team morale to boss people around to boss people around to boss people around to boss people around to boss people around to boss people around so leaders can get others to do all the work so leaders can get others to do all the work so leaders can get others to do all the work so leaders can get others to do all the work so leaders can get others to do all the work so leaders can get others to do all the work</slidetext>
+      <slidetext slideid="5m10DTSoOro" slidebank="true" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right! you selected the correct response. continue continue continue continue continue continue check understanding any questions  situation  parts of this smeac brief are in the wrong order. rearrange the sections of the smeac brief so they are under the correct heading. question 3 mission execution submit submit submit submit submit submit </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/SMEAC Briefing Technique.pdf" image="story_content/5tvy0bkx5Sa.png" title="SMEAC Briefing Technique Guide" />
+      <resource url="story_content/external_files/SMEAC Briefing Notes.pdf" image="story_content/61akKVd8CUF.png" title="SMEAC Briefing Notes Sheet (A5)" />
+      <resource url="story_content/external_files/SMEAC Briefing Notes 2 to a Page.pdf" image="story_content/5j01QywrREZ.png" title="SMEAC Briefing Notes Sheet (2 to a Page)" />
+      <resource url="story_content/external_files/Example Filled in SMEAC Brief.pdf" image="story_content/6JqRNez41tw.png" title="Filled in SMEAC Brief Example" />
+    </resources>
+  </resource_data>
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
